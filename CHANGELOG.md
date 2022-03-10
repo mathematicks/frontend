@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/mathematicks/frontend/compare/v1.0.0...v1.0.1) (2022-03-10)
+
+
+### Bug Fixes
+
+* update .yml to fix formatting error ([5bb094b](https://github.com/mathematicks/frontend/commit/5bb094b63a757e1bfaece3dd3bb47d207b90e13d))
+* update ci workflow file to upload build to website-build branch ([eeda702](https://github.com/mathematicks/frontend/commit/eeda7025125508ffdefb290be009974228ac9971))
+
 # 1.0.0 (2022-03-10)
 
 
