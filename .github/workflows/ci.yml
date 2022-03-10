@@ -35,30 +35,30 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN}}
 
-commit-build:
-  needs: build
-  runs-on: ubuntu-latest
-  steps:
-    - name: Clone the repository
-      uses: actions/checkout@v2
-      with:
-        ref: website-build
+  commit-build:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v2
+        with:
+          ref: website-build
 
-    - name: Configure Git
-      run: |
-        git config --global user.email gayathri.t.ramakrishnan@gmail.com
-        git config --global user.name ${GITHUB_ACTOR}
+      - name: Configure Git
+        run: |
+          git config --global user.email gayathri.t.ramakrishnan@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
 
-    - name: Download website build
-      uses: actions/download-artifact@v1
-      with:
-        name: dist
-        path: dist
+      - name: Download website build
+        uses: actions/download-artifact@v1
+        with:
+          name: dist
+          path: dist
 
-    - name: Commit and Push
-      run: |
-        if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
-          git add -f dist
-          git commit -m "gh-actions deployed a new website build"
-          git push --force https://${GITHUB_ACTOR}:$@github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
-        fi
+      - name: Commit and Push
+        run: |
+          if [ $(git status --porcelain=v1 2>/dev/null | wc -l) != "0" ] ; then
+            git add -f dist
+            git commit -m "gh-actions deployed a new website build"
+            git push --force https://${GITHUB_ACTOR}:$@github.com/${GITHUB_REPOSITORY}.git HEAD:website-build
+          fi
