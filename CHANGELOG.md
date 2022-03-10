@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/mathematicks/frontend/compare/v1.0.1...v1.0.2) (2022-03-10)
+
+
+### Bug Fixes
+
+* update .yml with the correct link to github repo ([a3b0266](https://github.com/mathematicks/frontend/commit/a3b0266b1ef9e24c56ddda9df28e48c678bbdd75))
+
 ## [1.0.1](https://github.com/mathematicks/frontend/compare/v1.0.0...v1.0.1) (2022-03-10)
 
 
