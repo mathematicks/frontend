@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/mathematicks/frontend/compare/v1.0.2...v1.0.3) (2022-03-12)
+
+
+### Bug Fixes
+
+* add pre-commit hook ([936d85d](https://github.com/mathematicks/frontend/commit/936d85dec3fb776ac44b7e938d2b3ccb60830094))
+* update pre-commit to pre-push web hook ([4c0981e](https://github.com/mathematicks/frontend/commit/4c0981e625949a3ed416b6f9fbf2d0667ab5d1cd))
+
 ## [1.0.2](https://github.com/mathematicks/frontend/compare/v1.0.1...v1.0.2) (2022-03-10)
 
 
