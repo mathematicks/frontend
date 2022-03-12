@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/mathematicks/frontend/compare/v1.0.4...v1.0.5) (2022-03-12)
+
+
+### Bug Fixes
+
+* update prettier rc ([71c2f54](https://github.com/mathematicks/frontend/commit/71c2f549c14f4adb81edb1a4cab1f9d3460dbc2a))
+
 ## [1.0.4](https://github.com/mathematicks/frontend/compare/v1.0.3...v1.0.4) (2022-03-12)
 
 
