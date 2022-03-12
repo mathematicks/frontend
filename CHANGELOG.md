@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mathematicks/frontend/compare/v1.0.3...v1.0.4) (2022-03-12)
+
+
+### Bug Fixes
+
+* add lint-staged for only staged files ([aea29e7](https://github.com/mathematicks/frontend/commit/aea29e7fac607b5961d7ea5eef8652be31f13133))
+
 ## [1.0.3](https://github.com/mathematicks/frontend/compare/v1.0.2...v1.0.3) (2022-03-12)
 
 
