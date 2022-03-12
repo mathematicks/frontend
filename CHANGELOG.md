@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/mathematicks/frontend/compare/v1.0.6...v1.0.7) (2022-03-12)
+
+
+### Bug Fixes
+
+* update prettierrc for trailing comma ([3db5d5c](https://github.com/mathematicks/frontend/commit/3db5d5c10015c00a38208e289486bce2699ca222))
+
 ## [1.0.6](https://github.com/mathematicks/frontend/compare/v1.0.5...v1.0.6) (2022-03-12)
 
 
