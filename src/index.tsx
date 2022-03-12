@@ -7,5 +7,5 @@ render(
   <StrictMode>
     <App />
   </StrictMode>,
-  document.getElementById('app-root')
+  document.getElementById('app-root'),
 );
