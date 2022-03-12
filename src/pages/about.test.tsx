@@ -10,7 +10,7 @@ describe('<About />', () => {
     documentBody = render(
       <BrowserRouter>
         <About />
-      </BrowserRouter>,
+      </BrowserRouter>
     );
   });
 
